@@ -20,7 +20,12 @@ Steps --
 I use Meslo LG Nerd Fonts which you can download from "https://www.nerdfonts.com/font-downloads".
 
 ## Zellij
-I use zellij as a multiplexer to open panes and floating panes.
+I use zellij as a multiplexer to open panes and floating panes. You can get zellij from "https://zellij.dev/".
+Also you need to run this command to dump the config of zellij -- 
+```
+mkdir ~/.config/zellij
+zellij setup --dump-config > ~/.config/zellij/config.kdl
+```
 
 ## Powerlevel10k
 I use Powerlevel10k to configure my terminal inside zellij. You can configure it from "https://github.com/romkatv/powerlevel10k".
