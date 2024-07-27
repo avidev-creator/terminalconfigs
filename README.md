@@ -1,0 +1,2 @@
+# terminalconfigs
+All terminal configs
